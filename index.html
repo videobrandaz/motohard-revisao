@@ -645,6 +645,12 @@ main .wrap { padding-block: 16px 48px; }
       if (!r.ok) { let m = ""; try { m = (await r.json()).message || ""; } catch {} const e = new Error(String(r.status)); e.detail = m; throw e; }
       etag = null; const j = await r.json(); setTimeout(pull, 400); return j;
     }
+    // etiquetas ajudam a filtrar no GitHub, mas não são essenciais (aula e minuto vão no marcador do texto):
+    // se o GitHub recusar por causa delas (quem não é colaborador não cria etiqueta), envia de novo sem.
+    async function comEtiqueta(body, labels) {
+      try { return await call("POST", "/issues", { ...body, labels }); }
+      catch (e) { if (e && (e.message === "403" || e.message === "422") && /label/i.test(e.detail || "")) return call("POST", "/issues", body); throw e; }
+    }
     const titleOf = d => `Aula ${d.n} · ${tc(d.t)} · ${d.texto.replace(/\s+/g, " ").slice(0, 70)}`;
     const bodyOf = d => `${d.texto}\n\n<!--cf ${JSON.stringify({ aula: d.aula, n: d.n, t: d.t, nome: nome || undefined })}-->`;
     BK = {
@@ -654,7 +660,7 @@ main .wrap { padding-block: 16px 48px; }
           window.open(`https://github.com/${GH.repo}/issues/new?title=${encodeURIComponent(titleOf(d))}&body=${encodeURIComponent(bodyOf(d))}`, "_blank", "noopener");
           return "externo";
         }
-        await call("POST", "/issues", { title: titleOf(d), body: bodyOf(d), labels: ["alteração", `aula ${d.n}`] });
+        await comEtiqueta({ title: titleOf(d), body: bodyOf(d) }, ["alteração", `aula ${d.n}`]);
       },
       async setStatus(n, s) {
         if (s === "feita") await call("PATCH", `/issues/${n.id}`, { state: "closed", state_reason: "completed" });
@@ -663,7 +669,7 @@ main .wrap { padding-block: 16px 48px; }
       async remove(n) { await call("PATCH", `/issues/${n.id}`, { state: "closed", state_reason: "not_planned" }); },
       async addLote(l, open) {
         const corpo = `${l.texto}\n\nItens: ${open.map(n => `#${n.id}`).join(" ")}\n\n<!--cf-lote ${JSON.stringify({ num: l.num, ids: l.ids })}-->`;
-        await call("POST", "/issues", { title: `Lote de alteração ${String(l.num).padStart(3, "0")} · ${open.length} itens`, body: corpo, labels: ["lote"] });
+        await comEtiqueta({ title: `Lote de alteração ${String(l.num).padStart(3, "0")} · ${open.length} itens`, body: corpo}, ["lote"]);
       },
     };
     ghLogout = () => { tok = ""; login = ""; store.set("cf-gh-token", ""); store.set("cf-gh-login", ""); myId = null; setWho("", false); renderChat(); schedule(); };
