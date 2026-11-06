@@ -296,7 +296,7 @@ main .wrap { padding-block: 16px 48px; }
   };
   const tc = s => { s = Math.max(0, Math.floor(s)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
   const modNum = id => id === "M9" ? "Encerramento" : `Módulo ${id.slice(1)}`;
-  const toast = m => { const t = $("#toast"); t.textContent = m; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 2800); };
+  const toast = (m, ms = 2800) => { const t = $("#toast"); t.textContent = m; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, ms); };
   const store = { get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
 
   let cur = null;          // aula atual
@@ -434,6 +434,19 @@ main .wrap { padding-block: 16px 48px; }
   $("#bNow").onclick = () => { composing = true; setAt(P.time()); $("#txt").focus(); };
   $("#txt").addEventListener("focus", () => { if (!composing) { P.pause(); composing = true; setAt(P.time()); } });
   $("#txt").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); $("#composer").requestSubmit(); } });
+  function erroMsg(err, acao) {  // o que o GitHub respondeu, em português, com o que fazer
+    const st = err && err.message, d = (err && err.detail) || "";
+    if (err && err.code === "quota_exceeded") return "O banco está cheio: gere um lote e arquive.";
+    if (st === "401") return "O GitHub recusou o token (expirado ou revogado). Clique em sair e entre de novo com um token novo.";
+    if (st === "403" && /verif/i.test(d)) return "O GitHub exige e-mail confirmado para criar alterações. Confirme o e-mail da sua conta (github.com/settings/emails) e tente de novo.";
+    if (st === "403" && /rate limit|abuse|secondary/i.test(d)) return "O GitHub limitou envios seguidos. Espere um minuto e tente de novo.";
+    if (st === "403") return `Sem permissão no GitHub para ${acao}${d ? ` (${d})` : ""}. Peça para ser adicionado como colaborador do repositório.`;
+    if (st === "404") return "O token não alcança o repositório. Use um token CLÁSSICO com o escopo public_repo (o link do botão entrar já cria assim).";
+    if (st === "410") return "As alterações (issues) estão desligadas no repositório. Avise a Brandaz.";
+    if (st === "422") return `O GitHub recusou os dados${d ? ` (${d})` : ""}. Tente de novo; se repetir, avise a Brandaz.`;
+    if (st && /^\d+$/.test(st)) return `O GitHub respondeu ${st}${d ? ` (${d})` : ""} ao ${acao}. Tente de novo.`;
+    return `Sem conexão com o GitHub ao ${acao}. Confira a internet e tente de novo.`;
+  }
   $("#composer").addEventListener("submit", async e => {
     e.preventDefault();
     const text = $("#txt").value.trim();
@@ -442,7 +455,7 @@ main .wrap { padding-block: 16px 48px; }
     $("#bSend").disabled = true;
     const doc = { aula: cur.id, n: cur.n, t: Math.round(atT * 10) / 10, texto: text, autor: myId || null, criado: new Date().toISOString(), status: "aberta", lote: null };
     try { const r = await BK.add(doc); if (r !== "externo") { $("#txt").value = ""; composing = false; toast(`Alteração registrada em ${tc(atT)}.`); } else toast("Confirme o envio na aba do GitHub que abriu."); }
-    catch (err) { toast(err && err.code === "quota_exceeded" ? "O banco está cheio: gere um lote e arquive." : err && err.message === "401" ? "Token recusado pelo GitHub: entre de novo." : "Não foi possível enviar. Tente de novo."); }
+    catch (err) { toast(erroMsg(err, "enviar"), 9000); console.error("envio", err && err.message, err && err.detail); }
     $("#bSend").disabled = false;
   });
   $("#fAula").onclick = () => { filter = "aula"; $("#fAula").setAttribute("aria-pressed", "true"); $("#fTodas").setAttribute("aria-pressed", "false"); renderChat(); };
@@ -484,8 +497,8 @@ main .wrap { padding-block: 16px 48px; }
     $("#bLote").disabled = !open;
     renderStats(); renderMarks();
   }
-  async function setStatus(n, s) { if (!BK || !BK.canWrite()) { askLogin(); return; } try { await BK.setStatus(n, s); } catch (e) { toast(e && e.message === "403" ? "Sem permissão: peça para ser adicionado como colaborador do repositório." : "Não foi possível atualizar."); } }
-  async function removeNote(n) { if (!BK || !BK.canWrite()) { askLogin(); return; } try { await BK.remove(n); toast("Alteração apagada."); } catch { toast("Não foi possível apagar."); } }
+  async function setStatus(n, s) { if (!BK || !BK.canWrite()) { askLogin(); return; } try { await BK.setStatus(n, s); } catch (e) { toast(erroMsg(e, "atualizar"), 9000); } }
+  async function removeNote(n) { if (!BK || !BK.canWrite()) { askLogin(); return; } try { await BK.remove(n); toast("Alteração apagada."); } catch (e) { toast(erroMsg(e, "apagar"), 9000); } }
   function renderMarks() {
     const el = $("#nmarks"); el.textContent = ""; if (!cur || !cur.dur) return;
     for (const n of notes) if (n.aula === cur.id && n.status !== "feita") el.append(h("span", { class: "nmark", style: `left:${n.t / cur.dur * 100}%`, title: n.texto.slice(0, 80) }));
@@ -515,7 +528,7 @@ main .wrap { padding-block: 16px 48px; }
     try {
       await BK.addLote({ num, criado: new Date().toISOString(), autor: myId || null, ids: open.map(n => n.id), texto }, open);
       toast(`Lote ${num} gerado com ${open.length} alterações.`);
-    } catch { toast("Não foi possível gerar o lote. Tente de novo."); }
+    } catch (e) { toast(erroMsg(e, "gerar o lote"), 9000); }
     $("#bLote").disabled = false;
   };
   function renderLotes() {
@@ -629,7 +642,7 @@ main .wrap { padding-block: 16px 48px; }
     document.addEventListener("visibilitychange", () => { if (!document.hidden) { pull(); schedule(); } });
     async function call(method, path, body) {
       const r = await fetch(`${API}${path}`, { method, headers: hdr({ "Content-Type": "application/json" }), body: JSON.stringify(body) });
-      if (!r.ok) throw new Error(String(r.status));
+      if (!r.ok) { let m = ""; try { m = (await r.json()).message || ""; } catch {} const e = new Error(String(r.status)); e.detail = m; throw e; }
       etag = null; const j = await r.json(); setTimeout(pull, 400); return j;
     }
     const titleOf = d => `Aula ${d.n} · ${tc(d.t)} · ${d.texto.replace(/\s+/g, " ").slice(0, 70)}`;
