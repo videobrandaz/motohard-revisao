@@ -4,3 +4,6 @@ media/
 .site_tmp/
 desdobre/*.mp4
 angles/*.mp4
+conferencia.html
+index_curso_antigo.html
+.pub.lock/
