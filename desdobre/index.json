@@ -1,0 +1,180 @@
+{
+"A00": [
+{
+"file": "A00__corte1_ads.mp4",
+"poster": "desdobre/A00__corte1_ads.jpg",
+"nome": "Corte de conteúdo 1",
+"tipo": "corte1",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 37.1,
+"mb": 70.4
+},
+{
+"file": "A00__corte1_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__corte1_ads_SEM-TRILHA.jpg",
+"nome": "Corte de conteúdo 1",
+"tipo": "corte1",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 37.1,
+"mb": 70.0
+},
+{
+"file": "A00__corte1_organico.mp4",
+"poster": "desdobre/A00__corte1_organico.jpg",
+"nome": "Corte de conteúdo 1",
+"tipo": "corte1",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 37.1,
+"mb": 70.4
+},
+{
+"file": "A00__corte1_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__corte1_organico_SEM-TRILHA.jpg",
+"nome": "Corte de conteúdo 1",
+"tipo": "corte1",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 37.1,
+"mb": 70.0
+},
+{
+"file": "A00__corte2_ads.mp4",
+"poster": "desdobre/A00__corte2_ads.jpg",
+"nome": "Corte de conteúdo 2",
+"tipo": "corte2",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 41.8,
+"mb": 82.2
+},
+{
+"file": "A00__corte2_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__corte2_ads_SEM-TRILHA.jpg",
+"nome": "Corte de conteúdo 2",
+"tipo": "corte2",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 41.8,
+"mb": 81.9
+},
+{
+"file": "A00__corte2_organico.mp4",
+"poster": "desdobre/A00__corte2_organico.jpg",
+"nome": "Corte de conteúdo 2",
+"tipo": "corte2",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 41.8,
+"mb": 82.2
+},
+{
+"file": "A00__corte2_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__corte2_organico_SEM-TRILHA.jpg",
+"nome": "Corte de conteúdo 2",
+"tipo": "corte2",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 41.8,
+"mb": 81.8
+},
+{
+"file": "A00__dica_ads.mp4",
+"poster": "desdobre/A00__dica_ads.jpg",
+"nome": "Dica em uma frase",
+"tipo": "dica",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 10.4,
+"mb": 18.3
+},
+{
+"file": "A00__dica_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__dica_ads_SEM-TRILHA.jpg",
+"nome": "Dica em uma frase",
+"tipo": "dica",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 10.4,
+"mb": 18.0
+},
+{
+"file": "A00__dica_organico.mp4",
+"poster": "desdobre/A00__dica_organico.jpg",
+"nome": "Dica em uma frase",
+"tipo": "dica",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 10.4,
+"mb": 18.7
+},
+{
+"file": "A00__dica_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__dica_organico_SEM-TRILHA.jpg",
+"nome": "Dica em uma frase",
+"tipo": "dica",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 10.4,
+"mb": 18.3
+},
+{
+"file": "A00__teaser_ads.mp4",
+"poster": "desdobre/A00__teaser_ads.jpg",
+"nome": "Teaser da aula",
+"tipo": "teaser",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 12.5,
+"mb": 21.4
+},
+{
+"file": "A00__teaser_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__teaser_ads_SEM-TRILHA.jpg",
+"nome": "Teaser da aula",
+"tipo": "teaser",
+"marca": "motohard",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 12.5,
+"mb": 21.2
+},
+{
+"file": "A00__teaser_organico.mp4",
+"poster": "desdobre/A00__teaser_organico.jpg",
+"nome": "Teaser da aula",
+"tipo": "teaser",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 12.5,
+"mb": 21.3
+},
+{
+"file": "A00__teaser_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__teaser_organico_SEM-TRILHA.jpg",
+"nome": "Teaser da aula",
+"tipo": "teaser",
+"marca": "motohard",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 12.5,
+"mb": 21.1
+}
+]
+}
