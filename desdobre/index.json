@@ -1067,7 +1067,7 @@
 "cta": "ads",
 "sem_trilha": false,
 "dur": 15.4,
-"mb": 22.7
+"mb": 23.0
 },
 {
 "file": "A23__bastidor-brandaz_ads_SEM-TRILHA.mp4",
@@ -1078,7 +1078,7 @@
 "cta": "ads",
 "sem_trilha": true,
 "dur": 15.4,
-"mb": 22.6
+"mb": 22.8
 },
 {
 "file": "A23__bastidor-brandaz_organico.mp4",
@@ -1089,7 +1089,7 @@
 "cta": "organico",
 "sem_trilha": false,
 "dur": 15.4,
-"mb": 22.9
+"mb": 23.2
 },
 {
 "file": "A23__bastidor-brandaz_organico_SEM-TRILHA.mp4",
@@ -1100,7 +1100,7 @@
 "cta": "organico",
 "sem_trilha": true,
 "dur": 15.4,
-"mb": 22.8
+"mb": 23.0
 }
 ],
 "A99": [
