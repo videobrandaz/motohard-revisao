@@ -1,180 +1,1152 @@
 {
 "A00": [
 {
-"file": "A00__corte1_ads.mp4",
-"poster": "desdobre/A00__corte1_ads.jpg",
-"nome": "Corte de conteúdo 1",
-"tipo": "corte1",
-"marca": "motohard",
+"file": "A00__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A00__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "ads",
 "sem_trilha": false,
-"dur": 37.1,
-"mb": 70.4
+"dur": 15.6,
+"mb": 22.4
 },
 {
-"file": "A00__corte1_ads_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__corte1_ads_SEM-TRILHA.jpg",
-"nome": "Corte de conteúdo 1",
-"tipo": "corte1",
-"marca": "motohard",
+"file": "A00__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "ads",
 "sem_trilha": true,
-"dur": 37.1,
-"mb": 70.0
+"dur": 15.6,
+"mb": 22.3
 },
 {
-"file": "A00__corte1_organico.mp4",
-"poster": "desdobre/A00__corte1_organico.jpg",
-"nome": "Corte de conteúdo 1",
-"tipo": "corte1",
-"marca": "motohard",
+"file": "A00__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A00__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": false,
-"dur": 37.1,
-"mb": 70.4
+"dur": 15.6,
+"mb": 22.3
 },
 {
-"file": "A00__corte1_organico_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__corte1_organico_SEM-TRILHA.jpg",
-"nome": "Corte de conteúdo 1",
-"tipo": "corte1",
-"marca": "motohard",
+"file": "A00__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A00__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": true,
-"dur": 37.1,
-"mb": 70.0
-},
+"dur": 15.6,
+"mb": 22.3
+}
+],
+"A01": [
 {
-"file": "A00__corte2_ads.mp4",
-"poster": "desdobre/A00__corte2_ads.jpg",
-"nome": "Corte de conteúdo 2",
-"tipo": "corte2",
-"marca": "motohard",
+"file": "A01__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A01__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "ads",
 "sem_trilha": false,
-"dur": 41.8,
-"mb": 82.2
+"dur": 17.6,
+"mb": 22.9
 },
 {
-"file": "A00__corte2_ads_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__corte2_ads_SEM-TRILHA.jpg",
-"nome": "Corte de conteúdo 2",
-"tipo": "corte2",
-"marca": "motohard",
+"file": "A01__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A01__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "ads",
 "sem_trilha": true,
-"dur": 41.8,
-"mb": 81.9
+"dur": 17.6,
+"mb": 22.7
 },
 {
-"file": "A00__corte2_organico.mp4",
-"poster": "desdobre/A00__corte2_organico.jpg",
-"nome": "Corte de conteúdo 2",
-"tipo": "corte2",
-"marca": "motohard",
+"file": "A01__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A01__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": false,
-"dur": 41.8,
-"mb": 82.2
+"dur": 17.6,
+"mb": 22.9
 },
 {
-"file": "A00__corte2_organico_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__corte2_organico_SEM-TRILHA.jpg",
-"nome": "Corte de conteúdo 2",
-"tipo": "corte2",
-"marca": "motohard",
+"file": "A01__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A01__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": true,
-"dur": 41.8,
-"mb": 81.8
-},
+"dur": 17.6,
+"mb": 22.7
+}
+],
+"A02": [
 {
-"file": "A00__dica_ads.mp4",
-"poster": "desdobre/A00__dica_ads.jpg",
-"nome": "Dica em uma frase",
-"tipo": "dica",
-"marca": "motohard",
+"file": "A02__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A02__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "ads",
 "sem_trilha": false,
-"dur": 10.4,
-"mb": 18.3
-},
-{
-"file": "A00__dica_ads_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__dica_ads_SEM-TRILHA.jpg",
-"nome": "Dica em uma frase",
-"tipo": "dica",
-"marca": "motohard",
-"cta": "ads",
-"sem_trilha": true,
-"dur": 10.4,
-"mb": 18.0
-},
-{
-"file": "A00__dica_organico.mp4",
-"poster": "desdobre/A00__dica_organico.jpg",
-"nome": "Dica em uma frase",
-"tipo": "dica",
-"marca": "motohard",
-"cta": "organico",
-"sem_trilha": false,
-"dur": 10.4,
-"mb": 18.7
-},
-{
-"file": "A00__dica_organico_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__dica_organico_SEM-TRILHA.jpg",
-"nome": "Dica em uma frase",
-"tipo": "dica",
-"marca": "motohard",
-"cta": "organico",
-"sem_trilha": true,
-"dur": 10.4,
-"mb": 18.3
-},
-{
-"file": "A00__teaser_ads.mp4",
-"poster": "desdobre/A00__teaser_ads.jpg",
-"nome": "Teaser da aula",
-"tipo": "teaser",
-"marca": "motohard",
-"cta": "ads",
-"sem_trilha": false,
-"dur": 12.5,
-"mb": 21.4
-},
-{
-"file": "A00__teaser_ads_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__teaser_ads_SEM-TRILHA.jpg",
-"nome": "Teaser da aula",
-"tipo": "teaser",
-"marca": "motohard",
-"cta": "ads",
-"sem_trilha": true,
-"dur": 12.5,
+"dur": 16.4,
 "mb": 21.2
 },
 {
-"file": "A00__teaser_organico.mp4",
-"poster": "desdobre/A00__teaser_organico.jpg",
-"nome": "Teaser da aula",
-"tipo": "teaser",
-"marca": "motohard",
+"file": "A02__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A02__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.4,
+"mb": 21.1
+},
+{
+"file": "A02__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A02__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": false,
-"dur": 12.5,
+"dur": 16.4,
 "mb": 21.3
 },
 {
-"file": "A00__teaser_organico_SEM-TRILHA.mp4",
-"poster": "desdobre/A00__teaser_organico_SEM-TRILHA.jpg",
-"nome": "Teaser da aula",
-"tipo": "teaser",
-"marca": "motohard",
+"file": "A02__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A02__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
 "cta": "organico",
 "sem_trilha": true,
-"dur": 12.5,
-"mb": 21.1
+"dur": 16.4,
+"mb": 21.2
+}
+],
+"A03": [
+{
+"file": "A03__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A03__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 24.0
+},
+{
+"file": "A03__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A03__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 23.8
+},
+{
+"file": "A03__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A03__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 24.1
+},
+{
+"file": "A03__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A03__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 23.9
+}
+],
+"A04": [
+{
+"file": "A04__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A04__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 14.6,
+"mb": 16.1
+},
+{
+"file": "A04__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A04__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 14.6,
+"mb": 16.0
+},
+{
+"file": "A04__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A04__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 14.6,
+"mb": 16.2
+},
+{
+"file": "A04__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A04__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 14.6,
+"mb": 16.0
+}
+],
+"A05": [
+{
+"file": "A05__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A05__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 14.3,
+"mb": 19.4
+},
+{
+"file": "A05__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A05__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 14.3,
+"mb": 19.3
+},
+{
+"file": "A05__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A05__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 14.3,
+"mb": 19.3
+},
+{
+"file": "A05__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A05__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 14.3,
+"mb": 19.1
+}
+],
+"A06": [
+{
+"file": "A06__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A06__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 25.7
+},
+{
+"file": "A06__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A06__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 25.5
+},
+{
+"file": "A06__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A06__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 25.7
+},
+{
+"file": "A06__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A06__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 25.5
+}
+],
+"A07": [
+{
+"file": "A07__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A07__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.2
+},
+{
+"file": "A07__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A07__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.1
+},
+{
+"file": "A07__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A07__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.2
+},
+{
+"file": "A07__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A07__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.0
+}
+],
+"A08": [
+{
+"file": "A08__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A08__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 21.8
+},
+{
+"file": "A08__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A08__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 21.6
+},
+{
+"file": "A08__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A08__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 21.7
+},
+{
+"file": "A08__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A08__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 21.6
+}
+],
+"A09": [
+{
+"file": "A09__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A09__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 25.5
+},
+{
+"file": "A09__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A09__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 25.3
+},
+{
+"file": "A09__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A09__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 25.8
+},
+{
+"file": "A09__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A09__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 25.6
+}
+],
+"A10": [
+{
+"file": "A10__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A10__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 17.4,
+"mb": 22.5
+},
+{
+"file": "A10__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A10__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 17.5,
+"mb": 22.4
+},
+{
+"file": "A10__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A10__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 17.4,
+"mb": 22.6
+},
+{
+"file": "A10__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A10__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 17.5,
+"mb": 22.5
+}
+],
+"A11": [
+{
+"file": "A11__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A11__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.3
+},
+{
+"file": "A11__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A11__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.2
+},
+{
+"file": "A11__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A11__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.3
+},
+{
+"file": "A11__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A11__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.2
+}
+],
+"A12": [
+{
+"file": "A12__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A12__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 15.9
+},
+{
+"file": "A12__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A12__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 15.8
+},
+{
+"file": "A12__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A12__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 15.9
+},
+{
+"file": "A12__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A12__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 15.7
+}
+],
+"A13": [
+{
+"file": "A13__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A13__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 24.6
+},
+{
+"file": "A13__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A13__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 24.5
+},
+{
+"file": "A13__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A13__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 17.6,
+"mb": 24.6
+},
+{
+"file": "A13__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A13__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 17.6,
+"mb": 24.5
+}
+],
+"A14": [
+{
+"file": "A14__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A14__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.8,
+"mb": 22.1
+},
+{
+"file": "A14__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A14__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.9,
+"mb": 22.0
+},
+{
+"file": "A14__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A14__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.8,
+"mb": 22.1
+},
+{
+"file": "A14__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A14__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.9,
+"mb": 22.0
+}
+],
+"A15": [
+{
+"file": "A15__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A15__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.0
+},
+{
+"file": "A15__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A15__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 21.9
+},
+{
+"file": "A15__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A15__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 21.9
+},
+{
+"file": "A15__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A15__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 21.8
+}
+],
+"A16": [
+{
+"file": "A16__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A16__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 17.7
+},
+{
+"file": "A16__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A16__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 17.5
+},
+{
+"file": "A16__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A16__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 17.6
+},
+{
+"file": "A16__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A16__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 17.5
+}
+],
+"A17": [
+{
+"file": "A17__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A17__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 16.5
+},
+{
+"file": "A17__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A17__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 16.3
+},
+{
+"file": "A17__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A17__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 16.5
+},
+{
+"file": "A17__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A17__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 16.3
+}
+],
+"A18": [
+{
+"file": "A18__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A18__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 23.1
+},
+{
+"file": "A18__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A18__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.9
+},
+{
+"file": "A18__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A18__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 23.1
+},
+{
+"file": "A18__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A18__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.9
+}
+],
+"A19": [
+{
+"file": "A19__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A19__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 21.9
+},
+{
+"file": "A19__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A19__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 21.7
+},
+{
+"file": "A19__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A19__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 21.9
+},
+{
+"file": "A19__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A19__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 21.7
+}
+],
+"A20": [
+{
+"file": "A20__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A20__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.4
+},
+{
+"file": "A20__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A20__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.2
+},
+{
+"file": "A20__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A20__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 22.4
+},
+{
+"file": "A20__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A20__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 22.2
+}
+],
+"A21": [
+{
+"file": "A21__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A21__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 16.9
+},
+{
+"file": "A21__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A21__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 16.8
+},
+{
+"file": "A21__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A21__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 16.9
+},
+{
+"file": "A21__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A21__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 16.7
+}
+],
+"A22": [
+{
+"file": "A22__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A22__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 16.0
+},
+{
+"file": "A22__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A22__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 15.8
+},
+{
+"file": "A22__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A22__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 15.9
+},
+{
+"file": "A22__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A22__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 15.8
+}
+],
+"A23": [
+{
+"file": "A23__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A23__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 22.7
+},
+{
+"file": "A23__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A23__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 22.6
+},
+{
+"file": "A23__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A23__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 15.4,
+"mb": 22.9
+},
+{
+"file": "A23__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A23__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 15.4,
+"mb": 22.8
+}
+],
+"A99": [
+{
+"file": "A99__bastidor-brandaz_ads.mp4",
+"poster": "desdobre/A99__bastidor-brandaz_ads.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 21.0
+},
+{
+"file": "A99__bastidor-brandaz_ads_SEM-TRILHA.mp4",
+"poster": "desdobre/A99__bastidor-brandaz_ads_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "ads",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 20.8
+},
+{
+"file": "A99__bastidor-brandaz_organico.mp4",
+"poster": "desdobre/A99__bastidor-brandaz_organico.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": false,
+"dur": 16.5,
+"mb": 20.9
+},
+{
+"file": "A99__bastidor-brandaz_organico_SEM-TRILHA.mp4",
+"poster": "desdobre/A99__bastidor-brandaz_organico_SEM-TRILHA.jpg",
+"nome": "Bastidor Brandaz",
+"tipo": "bastidor-brandaz",
+"marca": "brandaz",
+"cta": "organico",
+"sem_trilha": true,
+"dur": 16.5,
+"mb": 20.7
 }
 ]
 }
