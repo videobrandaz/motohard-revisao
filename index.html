@@ -49,6 +49,9 @@ main .wrap { padding-block: 16px 48px; }
 @media (max-width: 1100px) { .grid { grid-template-columns: 1fr; } }
 /* 12/11: para quem revisa, capítulos, roteiro e lotes ficam ocultos */
 .tabs, #pCap, #pRot, .lote-bar { display: none !important; }
+.cols .strip { grid-auto-columns: calc((100% - 6 * 12px) / 7); }
+@media (max-width: 1400px) { .cols .strip { grid-auto-columns: calc((100% - 4 * 12px) / 5); } }
+@media (max-width: 1100px) { .cols .strip { grid-auto-columns: minmax(220px, 260px); } }
 .side-dz .dz-grid { grid-template-columns: minmax(0, 1fr); }
 
 /* player */
@@ -226,7 +229,6 @@ main .wrap { padding-block: 16px 48px; }
         </div>
         <div class="tpanel" id="pCap"></div>
         <div class="tpanel" id="pRot" hidden></div>
-        <div class="cols" id="cols"></div>
       </section>
 
       <aside class="side">
@@ -266,6 +268,7 @@ main .wrap { padding-block: 16px 48px; }
         </section>
       </aside>
     </div>
+    <div class="cols" id="cols"></div>
   </div>
 </main>
 <div class="dz-modal" id="dzm" hidden><button class="x" id="dzx" aria-label="Fechar">×</button><video id="dzv" controls playsinline></video></div>
